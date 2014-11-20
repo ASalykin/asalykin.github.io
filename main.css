@@ -58,16 +58,33 @@ body{
 }
 
 /*-----columns------*/
+.pre-block3{
+    float: left;
+    height: 400px;
+    width: 5%;
+    background: #FFC8A3;
+}
+
+
 .block3{
     float: left;
     height: 400px;
     line-height: 400px;
     width: 30%;
     background: #FFC8A3;
-    margin-left: 5%;
     color: #FF7519;
     font-size: 40px;
 }
+.block3 span{
+    display: inline-block;
+    height: 400px;   
+}
+.block3 img{
+position: absolute;
+    bottom:50px;
+     left:150px;
+}
+
 
 .block4{
     float: left;
@@ -78,6 +95,11 @@ body{
     color: #FF7519;
     font-size: 40px;
 }
+.block4 img{
+position: absolute;
+    bottom:50px;
+     left:150px;
+}
 
 .block5{
     float: left;
@@ -87,6 +109,35 @@ body{
     background: #FFC8A3;
     color: #FF7519;
     font-size: 40px;
+}
+.block5 img{
+position: absolute;
+    bottom:50px;
+     left:150px;
+}
+
+.post-block5{
+    float: left;
+    height: 400px;
+    line-height: 400px;
+    width: 5%;
+    background: #FFC8A3;
+}
+
+.menu1{
+    position: absolute;
+    top:130px;
+    left:10px;
+}
+.menu2{
+    position: absolute;
+    top:200px;
+    left:10px;
+}
+.menu3{
+    position: absolute;
+    top:260px;
+    left:10px;
 }
 
 /*-----finishing part------*/
