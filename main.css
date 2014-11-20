@@ -1,73 +1,125 @@
-.body{
-
+body{
+    margin:0;
+    padding:0;
+    background:black;
 }
 
 .header{
-    height: 70px;
+    position: fixed;
+    z-index: 10;
+    height: 300px;
+    line-height: 300px;
     background: #D8E8CF;
+    background:url('/logo3.png') no-repeat 50% 50%;
+    top:0px;
+    width:100%;
+}
+
+.header span{
+    display: inline-block;
+    width: 100%;
+    height:inherit;
+    font-size: 100px; 
+    text-align: left;
+    color:#FFFFFF;
 }
 .block{
     position: relative;
     font-size: 20px;    
     text-align: center;
+    z-index: 30;
 }
 
 .text{
     position: absolute;
     top: 50%;
-    left: 50%;
-    
-    
+    left: 50%;   
 }
 /*-----landing------*/
+.block0{
+    height: 300px;
+    z-index: 5px;}
+
+
 .block1{
     height: 600px;
-    background: #9DF2ED;
+    line-height: 600px;
+    background: #FF7519;
+    font-size: 60px;
+    color:#CAD4D4;
 }
 
 .block2{
     height: 300px;
-    background: #F7A6AB;
+    line-height:150px;
+    background: #FFB84D;
+    font-size: 60px;
+    color:#FFFFFF;
 }
 
 /*-----columns------*/
 .block3{
     float: left;
     height: 400px;
+    line-height: 400px;
     width: 30%;
-    background: #2ecc71;
-    margin-right: 2.5%;
-    margin-left: 2.5%;
+    background: #FFC8A3;
+    margin-left: 5%;
+    color: #FF7519;
+    font-size: 40px;
 }
 
 .block4{
     float: left;
     height: 400px;
+    line-height: 400px;
     width: 30%;
-    background: #3498db;
-    margin-right: 2.5%;
+    background: #E6B493;  
+    color: #FF7519;
+    font-size: 40px;
 }
 
 .block5{
     float: left;
     height: 400px;
+    line-height: 400px;
     width: 30%;
-    background: #e74c3c;
+    background: #FFC8A3;
+    color: #FF7519;
+    font-size: 40px;
 }
 
 /*-----finishing part------*/
 .block6{
     height: 300px; 
-    background: #e74c3c;
+    line-height: 300px;
+    font-size: 60px;
+    background: #FFB84D;
 }
 
 .block7{
-        height: 300px;
-     background: #D1D1D1;
+     height: 300px;
+     background: #FFFFFF;
+    z-index: 5;
 }
 
 .footer{
-height: 150px;
+    width:100%;
+    height: 300px;
+    line-height: 300px;
+    background: black;
+    position: fixed;
+    z-index: 10;
+    bottom:0px;
+    color: #FFFFFF;
+
+}
+.footer span{
+    display: inline-block;
+    width: 100%;
+    height:inherit;
+    font-size: 80px; 
+    text-align: center;
 }
 
 .clearfix:after{
